@@ -1,0 +1,505 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .open-nav,.close-menue,.open-nav_2{
+        display: block;
+    }
+    .main-wrapper{
+        margin-bottom: 100px;
+    }
+    .heder-right,.heder-left{
+        display: none;
+        
+    }
+    .heder-right{
+        z-index: 100;
+        display: block;
+        right: -150%;
+        transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+        -moz-transition: all 0.9s;
+        -ms-transition: all 0.9s;
+        -o-transition: all 0.9s;
+    }
+    .heder-left{
+        z-index: 100;
+        left: -150%;
+        display: block;
+        transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+        -moz-transition: all 0.9s;
+        -ms-transition: all 0.9s;
+        -o-transition: all 0.9s;
+    }
+    .continer{
+        width: 95%;
+        margin-top: 60px;
+    }
+    .continer .main-heder{
+        width: 100%;
+    }
+    .info-dash-cards .info-dash-card .info-dash-card-text p{
+        font-size: 10px;
+    }
+    .info-dash {
+    width: 100%;
+    }
+    .teams{
+        width: 100%;
+    }
+    .news-continer {
+        margin-top: 60px;
+        width: 100%;
+    padding: 15px;
+    }
+    .sar-prf{
+        align-items: flex-start;
+    }
+    .news-continer .heder-sarh {
+        margin-left: 10px;
+    }
+    .main-wrapper .heder-sarh input{
+        width: 300px;
+        height: 50px;
+    }
+    .card-profile {
+        height: 50px;
+        padding: 0 15px;
+    }
+    .card-profile img {
+        width: 40px;
+        height: 40px;
+    }
+    .card-profile span{
+        font-size: 16px;
+    }
+    .card-profile i{
+    width: 40px;
+    height: 40px;
+    }
+    .add-new button, .add-player button {
+        width: 160px;
+        height: 50px;
+       font-size: 24px;
+    }
+    .team-tabel table thead tr th {
+    font-size: 16px;
+    }
+    .news-tabel table tbody tr td{
+        font-size: 13px;
+    }
+    .poup-news{
+        width: 90%;
+        padding: 30px;
+    }
+    .poup-news input, .poup-news textarea{
+        height: 55px;
+        padding: 15px;
+    }
+    .poup-news .popup-but button {
+        width: 120px;
+        height: 40px;
+    }
+    .Teame-pag .teams-hed ul {
+        align-items: flex-end;
+    }
+    .teams-hed ul li {
+    font-size: 22px;
+    }
+    .but-Championships button{
+     font-size: 20px;
+    }
+    .poup-news h2, .poup-news label {
+    font-size: 22px;
+    }
+    .team-tabel table tbody tr td i {
+    font-size: 18px;
+    }
+    .add-new {
+    margin-bottom: 10px;
+    }
+    .trans_hed{
+        font-size: initial;
+    }
+    .Reservations-form-card p {
+    font-size: 20px;
+    }
+    .poup-news input::placeholder{
+        font-size: 16px;
+    }
+    .Reservations-form-card .select select{
+        height: 55px;
+    }
+    .input_img_pl{
+        font-size: 12px;
+    }
+    .Add-player .Add-player-form input {
+    padding: 5px;
+    }
+    .Add-player .Add-player-form input::placeholder{
+        font-size: 14px;
+    }
+    .mobile_hed{
+        font-size: x-small;
+    }
+    .winner-cards-mobile{
+        display: block;
+    }
+    .detiles-Championship .card-news-date-add{
+        display: block;
+    }
+    .detiles-Championship .news-date-add{
+        width: 100%;
+    }
+    .squad-team-player-but {
+    width: 45%;
+    }
+    .team-tabel table tbody tr td {
+    font-size: 16px
+    }
+    .poup-show-accpt , .poup-reject{
+        width: 75%;
+    }
+    .poup-reject{
+        top: 60% !important;
+    }
+    .name-temes-share span{
+        font-size: 16px;
+    }
+    .conversations-but button{
+        width: 75px;
+    }
+    .statistics-card-text p{
+        font-size: 11px;
+    }
+    .statistics-card-text h4{
+        font-size: 35px;
+    }
+    .statistics-card-text span{
+        font-size: 13px;
+    }
+    .statistics-card-text, .statistics-card-content img {
+        width: 90%;
+    }
+}
+ @media (max-device-width: 767px)  {
+    .open-nav,.close-menue,.open-nav_2{
+        display: block;
+    }
+    .main-wrapper{
+        margin-bottom: 100px;
+    }
+    .heder-right,.heder-left{
+        display: none;
+        
+    }
+    .heder-right{
+        z-index: 100;
+        display: block;
+        right: -150%;
+        transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+        -moz-transition: all 0.9s;
+        -ms-transition: all 0.9s;
+        -o-transition: all 0.9s;
+    }
+    .heder-left{
+        z-index: 100;
+        left: -150%;
+        display: block;
+        transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+        -moz-transition: all 0.9s;
+        -ms-transition: all 0.9s;
+        -o-transition: all 0.9s;
+    }
+    .continer{
+        width: 95%;
+        margin-top: 60px;
+    }
+    .close-menue_2{
+        left: 82%;
+    }
+    .open-nav i, .open-nav_2 i {
+        font-size: 20px;
+    }
+    .continer .main-heder{
+        width: 100%;
+    }
+    .main-wrapper .heder-sarh input {
+        width: 200px;
+        height: 40px;
+    }
+    .continer .profile-admain .profile-admain-info p {
+        font-size: 13px;
+    }
+    .info-dash {
+        width: 100%;
+    }
+    .info-dash-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info-dash-cards .info-dash-card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .info-dash-cards .info-dash-card .info-dash-card-text {
+        margin-left: 15px;
+    }
+    .info-dash-cards .info-dash-card .info-dash-card-text p {
+        font-size: 6px;
+    }
+    .info-dash-cards .info-dash-card .info-dash-card-text h2 {
+        font-size: 22px;
+    }
+    .info-dash-cards .info-dash-card .info-dash-card-text p {
+        font-size: 6px;
+    }
+    .teams {
+        width: 100%;
+    }
+    .teams-hed ul li {
+        margin-left: 4px;
+        font-size: 14px;
+        padding: 8px;
+    }
+    .select select {
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .cahng-select{
+        font-size: 20px !important;
+    }
+    .team-tabel table thead tr th {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .team-tabel table tbody tr td {
+        padding: 11px 0;
+        font-size: 15px;
+    }
+    .team-tabel table{
+        padding: 0;
+    }
+    .news-continer {
+        margin-top: 60px;
+        width: 100%;
+        padding: 15px;
+    }
+    .news-continer .main-heder{
+        display: block;
+    }
+    .sar-prf {
+        align-items: initial;
+        margin-top: 15px;
+    }
+    .news-continer .heder-sarh {
+        margin-left: 15px;
+    }
+    .card-profile {
+        height: 40px;
+        padding: 0px 10px;
+    }
+    .card-profile-img {
+        margin-left: 15px;
+    }
+    .card-profile img {
+        width: 35px;
+        height: 35px;
+    }
+    .card-profile span {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .card-profile .card-profile-icon span{
+        width: 15px;
+        height: 15px;
+        font-size: 11px;
+    }
+    .card-profile i{
+        width: 34px;
+        height: 34px;
+    }
+    .add-new button, .add-player button {
+        width: 120px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .add-new button i {
+        margin-left: 12px;
+    }
+    .team-tabel table tbody tr td {
+        padding: 11px 0;
+        font-size: 10px;
+    }
+   
+    .news-tabel table tbody tr td i:nth-child(2){
+        margin-right: 15px;
+    }
+    table tbody tr .dat-tabel span {
+        font-size: 12px;
+    }
+    .team-tabel table thead tr th {
+        font-size: 12px;
+    }
+    .poup-news{
+        padding: 30px 10px;
+        width: 90%;
+        top: 50%;
+    }
+    .poup-news h2, .poup-news label {
+    font-size: 22px;
+    }
+    .poup-news input, .poup-news textarea{
+        height: 50px;
+    }
+    .news-date-add input {
+    width: 80%;
+    }
+    .teams-hed ul {
+        align-items: flex-end;
+    }
+   
+    .poup-news .popup-but button{   
+    width: 119px;
+    height: 45px;
+    }
+    .team-support-img img {
+        width: 50% !important;
+    }
+    .team-support-img p{
+        font-size: 10px;
+    }
+    .team-support-img span {
+        
+        top: 39px;
+        font-size: 11px;
+       
+    }
+    .Reservations-form-card p{
+        font-size: 12px;
+    }
+    .Reservations-form-card .select select {
+    height: 50px;
+    }
+    .Reservations-form-cards,.Reservations-form-cards-date {
+        display: block;
+    }
+    .Reservations-form-cards-date .Reservations-form-card{
+        width: 80%;
+    }
+    .Profil-img{
+        width: 40%;
+    }
+    .but-Championships button {
+    margin-left: 0;
+    }
+    .Finance-sum p {
+        font-size: 8px;
+        line-height: 30px;
+    }
+    .Teame-pag .team-tabel table tbody tr td i{
+        font-size: 12px;
+    }
+    .Teame-pag .team-tabel table tbody tr td i:nth-child(1),
+    .Correspondence-tabel table tbody tr td i:nth-child(1) {
+        
+    margin-left: 18px;
+    }
+    .Add-player{
+        padding: 5px;
+        display: grid;
+    }
+    .Add-player-form{
+        width: 100%;
+    }
+    .share-masseg {
+    right: -12% ;
+    }
+    .reversed-sher{
+        left: -12% !important;
+    }
+    .heder-right {
+        z-index: 100;
+        display: block;
+        right: -150%;
+        transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+        -moz-transition: all 0.9s;
+        -ms-transition: all 0.9s;
+        -o-transition: all 0.9s;
+    }
+    .winner-card-match-team, .winner-card-match, .winner-cards{
+        display: grid;
+    }
+    .card-news-date-add{
+        display: block;
+    }
+    .detiles-Championship .news-date-add {
+        width: 100%;
+    }
+    .detiles-Championship .news-date-add input {
+        width: 75%;
+    }
+    .squad-team-player{
+        display: block;
+    }
+    .squad-team-player-info {
+        width: 80%;
+    }
+    .squad-team-player-but button, .squad-save button{
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .News-coub table tbody tr td button {
+        width: 60px;
+        height: 25px;
+        font-size: 15px;
+        line-height: 110.5%;
+    }
+    .butactive {
+        width: 135px !important;
+    }
+    .name-temes-share span{
+        font-size: 12px;
+    }
+    .butactive3 {
+        width: 135px !important;
+    }
+    .conversations-but .but-accpt {
+        margin-bottom: 7px;
+        margin-left: 0px;
+    }
+    .conversations-but button {
+        width: 60px;
+        height: 30px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 110.5%;
+    }
+    .statistics-cards {
+        flex-wrap: wrap;
+    }
+    .statistics-card {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .statistics-card-text p {
+        font-size: 12px;
+    }
+    .statistics-card-text h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .statistics-card-text span {
+        font-size: 12px;
+    }
+    .statistics-card-content img {
+        width: 80%;
+    }
+  }
